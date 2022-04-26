@@ -1,6 +1,12 @@
 package com.app.streams;
 
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
+import java.util.TreeSet;
 import javax.swing.JOptionPane;
+import com.app.models.Course;
+import com.app.models.Student;
 
 public class PracticeSchool {
 	private static final String TITLE_REGISTER_STUDENT = "New Register";
@@ -29,7 +35,6 @@ public class PracticeSchool {
 		return null;
 	}
 	
-	/*
 	private static Student registerNewStudent(int index, String name, String lastName, int age, Set<Course> courses) {
 		Set<Course> studentCourses = new HashSet<>();
 		
@@ -60,10 +65,8 @@ public class PracticeSchool {
 		
 		return null;
 	}
-	*/
 	
 	public static void main(String[] args) {
-		/*
 		TreeSet<Student> school = new TreeSet<>((o1, o2) -> o1.getStudentId().compareTo(o2.getStudentId()));
 		TreeSet<Course> courses = new TreeSet<>();
 
@@ -111,18 +114,5 @@ public class PracticeSchool {
 				break;
 			}
 		} while (option != 5);
-		*/
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

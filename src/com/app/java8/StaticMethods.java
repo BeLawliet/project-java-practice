@@ -10,7 +10,7 @@ interface Follower {
 	}
 }
 
-public class ExampleStaticMethodsInterface {
+public class StaticMethods {
 	public static void main(String[] args) {
 		Follower.print();
 	}
